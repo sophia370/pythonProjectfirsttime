@@ -11,8 +11,21 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 
-print_hi('PyCharm')
+print_hi('good lookin')
+name = input("What is your name?  ")
+age = input("How old are you?  ")
+print("Hi there, ", name)
 
-print("summen er",9+9)
+fave_color = input("What is your favorite color? ")
+print("Your favorite color is", fave_color)
+
+animal = input('What is your favorite animal: ')
+if animal == 'squirrel' or animal == 'mouse':
+    print('I like squirrels too.')
+else:
+    print("I don't like", animal, 'I prefer Shrek.')
+
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

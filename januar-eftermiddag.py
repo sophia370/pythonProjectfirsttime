@@ -1,15 +1,7 @@
-navnet = input('skriv dit navn: ')
-print('hej', navnet)
 
-try:
-    etTal = int(input('Giv mig et tal: '))
-except:
-    print("det virkede ikke")
-    exit('Fejlkode: ID-10-T')
+print('Three is the magic number')
+print('yes it is, its a magic number')
+print('FINISH THE LYRIC;')
 
-etAndetTal = int(input('Giv mig et andet tal: '))
-
-summen = etTal+etAndetTal
-print('Summen af de to tal er: ', summen, ',', navnet, '.. Vidste du ikke det?')
-
-print()
+answer = input('Come with your answer: ')
+print('correct', answer)
